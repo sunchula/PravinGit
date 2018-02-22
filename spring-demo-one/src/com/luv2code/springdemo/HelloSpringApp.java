@@ -20,7 +20,7 @@ public class HelloSpringApp {
 		Coach theBaseballCoach = context.getBean("myBaseballCoach", Coach.class);
 		System.out.println(theBaseballCoach.getDailyWorkouot());
 		System.out.println(theBaseballCoach.getDailyMeals());
-		System.out.println("------------------------");
+		System.out.println("-------------------------");
 		
 		Coach theStudent = context.getBean("myStudentBean", Coach.class);
 		System.out.println(theStudent.getDailyWorkouot());
